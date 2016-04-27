@@ -5,8 +5,8 @@ make a system "production" ready.
 
 # Table of Contents
 
-- [Logging](#logging)
-# Logging
+1. [Logging](#logging)
+## Logging
 
 - **Are the logs stored somewhere other than on the host itself?**
 
