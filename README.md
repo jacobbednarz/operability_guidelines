@@ -28,3 +28,20 @@ make a system "production" ready.
   time to identifying the problem and not worry about small syntax issues in
   your queries.
 
+## Monitoring
+
+- **Is there a place where metrics (such as request per minute, response times,
+  etc) are aggregated?**
+
+  Being able to visualise changes in patterns is extremely helpful when tracking
+  down when an issue started or what the impact to a particular component will
+  be.
+
+- **Do you have visual thresholds in place for your collected metrics?**
+
+  Using visual markers in your monitoring systems allows someone with very
+  little context to know where the thresholds are for a component. This can be
+  in the form of a line or shaded area of the metric and can speed up incident
+  response times if someone can quickly identify something has burst through a
+  defined threshold and needs investigation.
+
