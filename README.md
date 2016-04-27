@@ -45,3 +45,15 @@ make a system "production" ready.
   response times if someone can quickly identify something has burst through a
   defined threshold and needs investigation.
 
+## Alerting
+
+- **Do you have automated escalation policies in place for your on call
+  rotation?**
+
+  We are all human and just because people are on call doesn't mean you get
+  super powers being able to stay awake for days on end. If you support an
+  application or service outside of business hours, your on call policy should
+  include an automated escalation after _n_ number of calls/SMS/emails go
+  unanswered. This ensures that despite a (potentially fatigued) human allowing
+  an alert to go unanswered, someone else will be able to respond.
+
