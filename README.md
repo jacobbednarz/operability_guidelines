@@ -23,3 +23,11 @@ make a system "production" ready.
   between multiple logging services to gather some data, it can add overhead to
   the investigation.
 
+- **Do you have saved search queries for common issues?**
+
+  When starting from scratch this won't be in place however over time you should
+  be able to build dashboards or save reusable queries to pull out data related
+  to commonly encountered issues or data sets. This allows you to speed up the
+  time to identifying the problem and not worry about small syntax issues in
+  your queries.
+
