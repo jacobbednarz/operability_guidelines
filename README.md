@@ -3,10 +3,10 @@ systems meet the minimum requirements to be supported within teams. Without this
 guideline, different teams will have varying standards on what is required to
 make a system "production" ready.
 
-# Contents
+# Table of Contents
 
 - [Logging](#logging)
-## Logging
+# Logging
 
 - **Are the logs stored somewhere other than on the host itself?**
 
