@@ -57,3 +57,14 @@ make a system "production" ready.
   unanswered. This ensures that despite a (potentially fatigued) human allowing
   an alert to go unanswered, someone else will be able to respond.
 
+## Automation
+
+- **Are tasks automated where possible?**
+
+  Whenever a task requires a human to intervene, there is a possibility that
+  there will also be human error. To minimise the risk of human error, you can
+  write automated scripts that a person can trigger or can be automatically
+  triggered based on system events
+  ([ChatOps](https://speakerdeck.com/jnewland/chatops-at-github) is a great
+  example of this).
+
