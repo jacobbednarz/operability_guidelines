@@ -57,6 +57,16 @@ make a system "production" ready.
   unanswered. This ensures that despite a (potentially fatigued) human allowing
   an alert to go unanswered, someone else will be able to respond.
 
+## Security
+
+- **Are you only exposing the bare minimum that is required to operate your
+  service?**
+
+  A key to securing your infrastructure is ensuring that your attack surface is
+  as small as possible. By doing this, you limit the number of potential attack
+  vectors available and it gives you the oppurtunity to focus on those exposed
+  surfaces.
+
 ## Automation
 
 - **Are tasks automated where possible?**
