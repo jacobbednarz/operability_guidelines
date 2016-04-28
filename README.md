@@ -68,3 +68,13 @@ make a system "production" ready.
   ([ChatOps](https://speakerdeck.com/jnewland/chatops-at-github) is a great
   example of this).
 
+## Resiliency
+
+- **Have you created a [resilency
+  matrix](https://speakerdeck.com/sirupsen/dockercon-2015-resilient-routing-and-discovery)
+  and addressed single points of failure?**
+
+  A resiliency matrix will allow you to identify parts of your infrastructure
+  that are too tightly coupled and work on ways to eliminate SPOF's and degrade
+  gracefully during an outage of a single component.
+
