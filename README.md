@@ -67,6 +67,30 @@ make a system "production" ready.
   vectors available and it gives you the oppurtunity to focus on those exposed
   surfaces.
 
+## Version control
+
+- **Are your instances managed using configuration management?**
+
+  Configuration management tools allow you to describe how your instances
+  should look and function. It also gives you the ability to quickly roll out a
+  series of changes to the whole fleet without needing to worry about
+  inconsistencies between them.
+
+- **Is your infrastructure in code?**
+
+  While configuration management looks after the individual instances,
+  Infrastructure As Code also extends to the orchestration of how all the moving
+  parts fit together. Taking this approach, you define things such as (but not
+  limited to):
+
+    - Instance size
+    - Which load balancer it is allowed to talk to
+    - How many of these instances you intend to create
+    - Which instances are networked together
+
+  Having your infrastructure in code allows you to quickly rebuild and get back
+  to the golden source in the event anything goes wrong.
+
 ## Automation
 
 - **Are tasks automated where possible?**
