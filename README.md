@@ -67,6 +67,12 @@ make a system "production" ready.
   vectors available and it gives you the oppurtunity to focus on those exposed
   surfaces.
 
+- **Is re-rolling your secrets automated?**
+
+  If your application uses secrets, it is a good idea to automate the process of
+  rolling these secrets so that you are able to do it at a moments notice and
+  not have to be concerned about where else the secret may be used.
+
 ## Version control
 
 - **Are your instances managed using configuration management?**
