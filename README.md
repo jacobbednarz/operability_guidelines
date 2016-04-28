@@ -78,3 +78,12 @@ make a system "production" ready.
   that are too tightly coupled and work on ways to eliminate SPOF's and degrade
   gracefully during an outage of a single component.
 
+- **Do you have multiple (load balanced) instances in operation?**
+
+  Regardless of whether it is a user facing service or a database
+  server, it is important to introduce at least 2 (but commonly 3) instances so
+  in the event of an isolated failure, you will still have capacity to continue
+  on. It's also important to ensure these instances are load balanced and health
+  checks are being performed so should any of the instances return unhealthy,
+  they can be ejected from the pool.
+
