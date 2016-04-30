@@ -127,3 +127,11 @@ make a system "production" ready.
   checks are being performed so should any of the instances return unhealthy,
   they can be ejected from the pool.
 
+- **Do you perform canary testing or staged rollouts for your deployments?**
+
+  Whether you are changing a part of the application or your infrastructure you
+  should be performing small and incremental rollouts to ensure your changes do
+  not introduce regressions. Many teams will also automate this step and perform
+  comparative analysis against the stable rollout so that if a particular
+  theshold (such as error rate) vary too much, the change will be rolled back to
+  a known good state.
