@@ -3,6 +3,16 @@ systems meet the minimum requirements to be supported within teams. Without this
 guideline, different teams will have varying standards on what is required to
 make a system "production" ready.
 
+## Tests
+
+- **Does the project have an automated test suite?**
+
+  Having an automated test suite (such as run CI on push) is great to ensure
+  that changes can be made with confidence that the proposed changes will not
+  break the existing application. By having a decent amount of test coverage you
+  can quickly iterate on changes and spend less time manually reviewing changes
+  post deploy.
+
 ## Logging
 
 - **Are the logs stored somewhere other than on the host itself?**
