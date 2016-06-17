@@ -145,3 +145,11 @@ make a system "production" ready.
   comparative analysis against the stable rollout so that if a particular
   theshold (such as error rate) vary too much, the change will be rolled back to
   a known good state.
+
+- **Do you regularly firedrill your disaster recovery or failover processes?**
+
+  Having a disaster recovery process in place is good start however if you do
+  not regularly test that it still works flawlessly as your application changes,
+  there is a chance that when you actually need it, the process will not work or
+  partially fail leaving you in limbo. Firedrilling processes often and randomly
+  will help you combat any snowflakes or resilency holes in your system.
