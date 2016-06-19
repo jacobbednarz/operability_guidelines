@@ -20,7 +20,7 @@ make a system "production" ready.
   Logs should never be stored on a single host. Instead, you should mount (and
   write to) an  external volume or have the data streamed to a centralised
   logging platform.  This becomes very benefitical if a host should die
-  unexpectantly and you need to dig through the black box to determine the
+  unexpectedly and you need to dig through the black box to determine the
   cause.
 
 - **Are you using centralised logging?**
